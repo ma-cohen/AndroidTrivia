@@ -1,13 +1,13 @@
-##Android Trivia
+# Android Trivia
 
-#Start Screen
+## Start Screen
 ![](screenshots/Main.PNG)
 
-#Game play
+## Game play
 ![](screenshots/GamePlay.PNG)
 
-#Game Won
+## Game Won
 ![](screenshots/GameWon.PNG)
 
-#Game Over
+## Game Over
 ![](screenshots/GameOver.PNG)
