@@ -16,6 +16,7 @@
 
 package com.example.android.navigation
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -26,10 +27,14 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentGameBinding
 
+
+
+
 class GameFragment : Fragment() {
     data class Question(
             val text: String,
             val answers: List<String>)
+
 
     // The first answer is the correct one.  We randomize the answers before showing the text.
     // All questions must have four answers.  We'd want these to contain references to string
